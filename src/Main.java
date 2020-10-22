@@ -15,6 +15,10 @@ public class Main {
         		produto.Troco();        		
         } while (produto.ValorPago != 0);
         
+        
+        
+        System.out.println("Seu programa terminou!");
+        
 
         produto.Leitor.close();
 	}

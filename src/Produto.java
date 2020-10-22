@@ -14,6 +14,10 @@ public class Produto {
 	public void Pagar() {
         System.out.println("Digite o valor a pagar:");
         ValorPago = Leitor.nextDouble();		
+        
+        
+        
+        
 	}
 	
 	public void Troco() {
