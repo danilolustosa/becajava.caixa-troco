@@ -13,12 +13,7 @@ public class Main {
         		System.out.println("ERRO: Você digitou o valor a ser pago MENOR do que o valor do produto");
         	else
         		produto.Troco();        		
-        } while (produto.ValorPago != 0);
-        
-        
-        
-        System.out.println("Seu programa terminou!");
-        
+        } while (produto.ValorPago != 0);        
 
         produto.Leitor.close();
 	}
